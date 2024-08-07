@@ -1,0 +1,36 @@
+include Alabaster Dark.conf
+
+
+background_opacity 0.4
+
+# Tab Management
+tab_bar_edge bottom
+tab_bar_margin_height 0.0 4.0
+tab_bar_style slant
+tab_bar_min_tabs 2
+tab_title_template "{activity_symbol} {index} {tab.active_exe}"
+
+
+# Cursor colors
+cursor                  #F5E0DC
+cursor_text_color       #11111B
+
+# URL underline color when hovering with mouse
+url_color               #F5E0DC
+
+# Kitty window border colors
+active_border_color     #B4BEFE
+inactive_border_color   #6C7086
+bell_border_color       #F9E2AF
+
+
+# Fonts
+font_family      Source Code Pro
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+font_size 14.0
+
+adjust_line_height  0
+adjust_column_width 0
